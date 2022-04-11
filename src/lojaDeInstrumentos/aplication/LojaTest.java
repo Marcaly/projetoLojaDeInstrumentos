@@ -14,7 +14,7 @@ public class LojaTest {
         System.out.println("Bem Vindo à menor loja de instrumentos de Brasília!!!");
 
         System.out.printf(menuLoja.getMenu());
-        menuLoja.setItemEscolhido(sc.nextInt());
+        menuLoja.setItemEscolhido(sc.next());
         System.out.printf(menuLoja.getItemEscolhido());
 
 

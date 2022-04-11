@@ -47,7 +47,7 @@ public class MenuLoja {
                         " 4 - Voltar para o menu inicial %n";
             } else {
                 System.out.println("Insira um número válido");
-                itemEscolhido = sc.nextInt();
+                itemEscolhido = sc.next();
                 return getItemEscolhido();
             }
 
