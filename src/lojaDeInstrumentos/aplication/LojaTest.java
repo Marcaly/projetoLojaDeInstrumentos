@@ -18,9 +18,5 @@ public class LojaTest {
         System.out.printf(menuLoja.getItemEscolhido());
 
 
-
-
-
-
     }
 }
